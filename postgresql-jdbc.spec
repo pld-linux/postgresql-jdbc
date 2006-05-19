@@ -11,7 +11,7 @@ URL:		http://jdbc.postgresql.org/
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-utils
-BuildRequires:	jakarta-ant >= 1.5
+BuildRequires:	ant >= 1.5
 BuildRoot:	%{tmpdir}/%{name}-%{postgresql_version}-root-%(id -u -n)
 
 %description
