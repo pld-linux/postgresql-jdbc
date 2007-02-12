@@ -1,5 +1,5 @@
 Summary:	PostgreSQL JDBC driver
-Summary(pl):	Sterownik JDBC do PostgreSQL-a
+Summary(pl.UTF-8):   Sterownik JDBC do PostgreSQL-a
 Name:		postgresql-jdbc
 Version:	310
 Release:	1
@@ -23,15 +23,15 @@ some PostgreSQL specific extensions. Our goal is nothing short of full
 compliance, but it's not there yet. Some features require additional
 backend support and others just need someone to implement them.
 
-%description -l pl
-Sterownik JDBC do PostgreSQL-a pozwala programom w Javie ³±czyæ siê z
-baz± danych PostgreSQL przy u¿yciu stanadrdowego, niezale¿nego od bazy
+%description -l pl.UTF-8
+Sterownik JDBC do PostgreSQL-a pozwala programom w Javie Å‚Ä…czyÄ‡ siÄ™ z
+bazÄ… danych PostgreSQL przy uÅ¼yciu stanadrdowego, niezaleÅ¼nego od bazy
 danych, kodu w Javie. Jest to implementacja w czystej Javie (Type IV).
-Sterownik dostarcza prawie pe³n± implementacjê specyfikacji JDBC 3 z
-dodatkiem rozszerzeñ specyficznych dla PostgreSQL-a. Celem jest
-osi±gniêcie pe³nej zgodno¶ci, ale do niej jeszcze trochê brakuje.
-Niektóre mo¿liwo¶ci wymagaj± dodatkowego wsparcia backendu, a inne po
-prostu kogo¶, kto je zaimplementuje.
+Sterownik dostarcza prawie peÅ‚nÄ… implementacjÄ™ specyfikacji JDBC 3 z
+dodatkiem rozszerzeÅ„ specyficznych dla PostgreSQL-a. Celem jest
+osiÄ…gniÄ™cie peÅ‚nej zgodnoÅ›ci, ale do niej jeszcze trochÄ™ brakuje.
+NiektÃ³re moÅ¼liwoÅ›ci wymagajÄ… dodatkowego wsparcia backendu, a inne po
+prostu kogoÅ›, kto je zaimplementuje.
 
 %prep
 %setup -q -n %{name}-8.0-%{version}.src
