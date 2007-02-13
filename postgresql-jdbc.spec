@@ -1,5 +1,5 @@
 Summary:	PostgreSQL JDBC driver
-Summary(pl.UTF-8):   Sterownik JDBC do PostgreSQL-a
+Summary(pl.UTF-8):	Sterownik JDBC do PostgreSQL-a
 Name:		postgresql-jdbc
 Version:	310
 Release:	1
