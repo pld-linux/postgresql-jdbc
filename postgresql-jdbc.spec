@@ -1,17 +1,18 @@
 Summary:	PostgreSQL JDBC driver
 Summary(pl.UTF-8):	Sterownik JDBC do PostgreSQL-a
 Name:		postgresql-jdbc
-Version:	506
+Version:	603
 Release:	1
 License:	BSD
 Group:		Development/Languages/Java
-Source0:	http://jdbc.postgresql.org/download/%{name}-8.2-%{version}.src.tar.gz
-# Source0-md5:	03a70fa9be032a63155982514590e9b4
+Source0:	http://jdbc.postgresql.org/download/%{name}-8.3-%{version}.src.tar.gz
+# Source0-md5:	6e130d3dc307d27757252ff28ce9a9f2
 URL:		http://jdbc.postgresql.org/
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-utils
 BuildRequires:	ant >= 1.5
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{postgresql_version}-root-%(id -u -n)
 
 %description
@@ -34,7 +35,7 @@ Niektóre możliwości wymagają dodatkowego wsparcia backendu, a inne po
 prostu kogoś, kto je zaimplementuje.
 
 %prep
-%setup -q -n %{name}-8.2-%{version}.src
+%setup -q -n %{name}-8.3-%{version}.src
 
 %build
 ant
