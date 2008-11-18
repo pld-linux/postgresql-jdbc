@@ -1,12 +1,12 @@
 Summary:	PostgreSQL JDBC driver
 Summary(pl.UTF-8):	Sterownik JDBC do PostgreSQL-a
 Name:		postgresql-jdbc
-Version:	603
+Version:	604
 Release:	1
 License:	BSD
 Group:		Development/Languages/Java
 Source0:	http://jdbc.postgresql.org/download/%{name}-8.3-%{version}.src.tar.gz
-# Source0-md5:	6e130d3dc307d27757252ff28ce9a9f2
+# Source0-md5:	b1e591dd66fd0ebdd7023afdf33c7b5a
 URL:		http://jdbc.postgresql.org/
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	docbook-style-xsl
