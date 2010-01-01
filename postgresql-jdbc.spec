@@ -13,7 +13,7 @@ BuildRequires:	docbook-style-xsl
 BuildRequires:	docbook-utils
 BuildRequires:	ant >= 1.5
 BuildArch:	noarch
-BuildRoot:	%{tmpdir}/%{name}-%{postgresql_version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 PostgreSQL JDBC driver allows Java programs to connect to a PostgreSQL
