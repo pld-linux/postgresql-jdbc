@@ -1,12 +1,13 @@
+%define	pg_ver	9.1
 Summary:	PostgreSQL JDBC driver
 Summary(pl.UTF-8):	Sterownik JDBC do PostgreSQL-a
 Name:		postgresql-jdbc
-Version:	606
+Version:	901
 Release:	1
 License:	BSD
 Group:		Development/Languages/Java
-Source0:	http://jdbc.postgresql.org/download/%{name}-8.3-%{version}.src.tar.gz
-# Source0-md5:	102a2ce0acc01008f1d0978a456aa892
+Source0:	http://jdbc.postgresql.org/download/%{name}-%{pg_ver}-%{version}.src.tar.gz
+# Source0-md5:	eab20a5cd5344a21f33a1768dd3f4f96
 URL:		http://jdbc.postgresql.org/
 BuildRequires:	docbook-dtd42-xml
 BuildRequires:	docbook-style-xsl
@@ -35,7 +36,7 @@ Niektóre możliwości wymagają dodatkowego wsparcia backendu, a inne po
 prostu kogoś, kto je zaimplementuje.
 
 %prep
-%setup -q -n %{name}-8.3-%{version}.src
+%setup -q -n %{name}-%{pg_ver}-%{version}.src
 
 %build
 ant
